@@ -5,7 +5,6 @@ def calcular():
     try:
         valor_peso = float(peso_entry.get())
         valor_altura = float(altura_entry.get())
-        genero = genero_var.get()
 
         if valor_peso > 0 and valor_altura > 0:
             imc = valor_peso / (valor_altura * valor_altura)
